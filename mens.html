@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mens page</title>
+    <style>
+        #app {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            margin-left: 60px;
+            margin-right: 20px;
+        }
+
+        #product {
+            width: 65%;
+            margin: auto;
+            margin-top: 10px;
+        }
+
+        img {
+            padding: 50px;
+            padding-bottom: 10px;
+        }
+
+        #product>p {
+            margin-bottom: -10px;
+            margin-top: 20px;
+            font-size: 25px;
+        }
+
+        #product>div {
+            display: flex;
+        }
+
+        #price p {
+            margin-top: 23px;
+            margin-left: 10px;
+        }
+
+        #para1 {
+            color: darkgreen;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        #para {
+            text-decoration: line-through;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <div id="product">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-1KThQ69dytQx4JvGtCZg8mSF8BsVBGEoxQ&usqp=CAU"
+                alt="pic1">
+            <h2>Pause</h2>
+            <p>Men Cotton Long Sleeves Shrug</p>
+            <div id="price">
+                <h2>₹ 359</h2>
+                <p id="para">₹ 1,499</p>
+                <p id="para1">-76%</p>
+            </div>
+        </div>
+        <div id="product">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5oewtxlnfa60U0e0857L1rOJV9klFrWOl0QZcSvNQrJ561IzpD7zwveuQ50reSkt1N54&usqp=CAU"
+                alt="pic2">
+            <h2>JUBINATION</h2>
+            <p>Men Wool Sleeveless Sweater Pack Of 1</p>
+            <div id="price">
+                <h2>₹ 799</h2>
+                <p id="para">₹ 1,499</p>
+                <p id="para1">-47%</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
